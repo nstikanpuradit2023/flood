@@ -18,8 +18,8 @@ import pandas as pd
 # Load environment variables
 load_dotenv()
 
-ADMIN_EMAIL=st.secret("admin@floodalert.com")
-ADMIN_PASSWORD=st.secret("admin123")
+ADMIN_EMAIL=st.secrets["id"]
+ADMIN_PASSWORD=st.secrets["pass"]
 
 # Enhanced language dictionary with Indian languages
 language_dict = {
