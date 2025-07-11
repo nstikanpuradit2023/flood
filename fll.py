@@ -17,6 +17,8 @@ import pandas as pd
 
 ADMIN_EMAIL=st.secrets["id"]
 ADMIN_PASSWORD=st.secrets["pass"]
+SENDER_EMAIL=st.secrets["email"]
+SENDER_PASSWORD=st.secrets["gmailpass"]
 
 # Enhanced language dictionary with Indian languages
 language_dict = {
