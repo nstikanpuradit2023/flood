@@ -15,9 +15,6 @@ import re
 from streamlit import session_state as state
 import pandas as pd
 
-# Load environment variables
-load_dotenv()
-
 ADMIN_EMAIL=st.secrets["id"]
 ADMIN_PASSWORD=st.secrets["pass"]
 
