@@ -9,7 +9,7 @@ import smtplib
 from deep_translator import GoogleTranslator
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import hashlib
 import re
 from streamlit import session_state as state
